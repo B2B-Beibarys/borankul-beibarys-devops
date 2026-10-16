@@ -4,7 +4,7 @@ import time
 name = os.getenv("STUDENT_NAME", "Beibarys")
 surname = os.getenv("STUDENT_SURNAME", "Borankul")
 group = os.getenv("STUDENT_GROUP", "IT2-2306")
-student_id = os.getenv("STUDENT_ID", "XXXXXX")
+student_id = os.getenv("STUDENT_ID", "38293")
 
 print("================================")
 print("DevOps Student Application")
