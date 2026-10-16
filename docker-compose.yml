@@ -1,0 +1,10 @@
+services:
+  app:
+    build: .
+    image: borankul-beibarys-devops
+    container_name: borankul-beibarys-container
+    environment:
+      STUDENT_NAME: Beibarys
+      STUDENT_SURNAME: Borankul
+      STUDENT_GROUP: IT2-2306
+      STUDENT_ID: "XXXXXX"
